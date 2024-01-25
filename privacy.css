@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 900;
+}
+
+header {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 40px; /* Adjusted logo height */
+}
+
+.company-name {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Centering the button vertically */
+}
+
+.home-button {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 900;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 40px; /* Added margin to create space between content and footer */
+}
+
+h1, h2 {
+    color: white;
+}
+
+p {
+    color: #999;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 30px; /* Adjusted height */
+    background-color: transparent; /* Removed background color */
+}

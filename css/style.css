@@ -1044,6 +1044,59 @@ a:focus {
   color: #ff4646;
 }
 
+.tip-box {
+  background-color: #131313;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0; /* Moved to the right side */
+  width: 350px; /* Adjusted width to a smaller size */
+  z-index: 9999;
+  border-radius: 8px; /* Added border radius */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Added box shadow */
+}
+
+.remove-tip-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px; /* Smaller font size */
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.tip-text {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.remove-tip-button {
+  background-color: #363636;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 0px;
+  margin-top: 100px;
+}
+
+.open-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.remove-tip-button:hover {
+  background-color: #db5f51;
+}
+
 /* end info section */
 /* footer section*/
 .footer_section {

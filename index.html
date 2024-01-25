@@ -9,6 +9,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+  <link rel="icon" href="/images/fevicon.png" type="image/x-icon">
+
   <link rel="icon" href="https://cdn.discordapp.com/attachments/1195744687089258546/1196855637712314498/PB4zTsw.png?ex=65b925ac&is=65a6b0ac&hm=df490b2efb9aed7fda2fcf309db7a0acef309b06081af118a9d1c555c38d7c7b&" type="image/gif" />
   <meta name="keywords" content="host" />
   <meta name="description" content="The All-In-One Hosting Service" />
@@ -169,6 +171,12 @@
 
   <!-- end service section -->
 
+  <div class="tip-box">
+    <button class="remove-tip-button" onclick="removeTip()">✖</button>
+    <p class="tip-text">Claim your free 100 credits! Create a server with 512MB RAM for free for 1 month.</p>
+    <a href="https://example.com" target="_blank"><button class="open-button">Open</button></a>
+</div>
+
   <!-- info section -->
 
   <section class="info_section layout_padding2">
@@ -241,6 +249,12 @@
     </div>
   </footer>
   <!-- footer section -->
+
+  <script>
+    function removeTip() {
+        document.querySelector('.tip-box').style.display = 'none';
+    }
+</script>
 
   <!-- jQery -->
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/jquery-3.4.1.min.js"></script>
